@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="register-container">
+      <form id="register-form">
+        <h1>Create an Account</h1>
+
+        <!-- Full Name -->
+        <div class="inputbox">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <i class="bx bx-user"></i>
+        </div>
+
+        <!-- Email Address -->
+        <div class="inputbox">
+          <input type="email" id="email" placeholder="Email" required />
+          <i class="bx bx-envelope"></i>
+        </div>
+
+        <!-- Password -->
+        <div class="inputbox">
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <i class="bx bx-lock-alt"></i>
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="inputbox">
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confirm Password"
+            required
+          />
+          <i class="bx bx-lock-alt"></i>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn">Register</button>
+
+        <div class="login-link">
+          <p>
+            Already have an account?
+            <a href="/login section/login.html">Login here</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
