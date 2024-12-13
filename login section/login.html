@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <title>IETI RMS Login</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Virtual Bulletin Board</title>
+  </head>
+  <body>
     <div class="login">
-        <form action="">
-            <h1>Login</h1>
-            <div class="inputbox">
-                <input type="text" placeholder="Username" required>
-                <i class="bx bxs-user"></i>
-            </div>
-            <div class="inputbox">
-                <input type="text" placeholder="password" required>
-                <i class="bx bxs-lock-alt"></i>
-            </div>
-            <div class="forgot-remember">
-                <label><input type="checkbox"> Remember me?</label>
-                <a href="#">Forgot Password</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="register-link">
-                <p>Don't have account? <a href="#">Register</a></p>
-            </div>
-        </form>
+      <form action="">
+        <h1>Login</h1>
+        <div class="inputbox">
+          <input type="text" placeholder="Username" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="inputbox">
+          <input type="password" placeholder="Password" required />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="forgot-remember">
+          <label><input type="checkbox" /> Remember me?</label>
+          <a href="/ForPass/forgot-password.html">Forgot Password</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register-link">
+          <p>
+            Don't have an account?
+            <a href="/Registration/registration.html">Register</a>
+          </p>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
